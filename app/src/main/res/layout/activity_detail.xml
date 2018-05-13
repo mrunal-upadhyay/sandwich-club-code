@@ -19,69 +19,37 @@
       android:scaleType="centerCrop"/>
 
     <TextView
-      android:textStyle="bold"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="@dimen/tv_margin_top"
-      android:layout_marginLeft="@dimen/tv_margin_left"
-      android:layout_marginRight="@dimen/tv_margin_right"
+      style="@style/textViewKeyStyle"
       android:text="@string/detail_also_known_as_label"/>
 
     <TextView
       android:id="@+id/also_known_tv"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginLeft="@dimen/tv_margin_left"
-      android:layout_marginRight="@dimen/tv_margin_right"/>
+      style="@style/textViewValueStyle"/>
 
     <TextView
-      android:textStyle="bold"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="@dimen/tv_margin_top"
-      android:layout_marginLeft="@dimen/tv_margin_left"
-      android:layout_marginRight="@dimen/tv_margin_right"
+      style="@style/textViewKeyStyle"
       android:text="@string/detail_ingredients_label"/>
 
     <TextView
       android:id="@+id/ingredients_tv"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginLeft="@dimen/tv_margin_left"
-      android:layout_marginRight="@dimen/tv_margin_right"/>
+      style="@style/textViewValueStyle"/>
 
     <TextView
-      android:textStyle="bold"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="@dimen/tv_margin_top"
-      android:layout_marginLeft="@dimen/tv_margin_left"
-      android:layout_marginRight="@dimen/tv_margin_right"
+      style="@style/textViewKeyStyle"
       android:text="@string/detail_place_of_origin_label"/>
 
     <TextView
       android:id="@+id/origin_tv"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginLeft="@dimen/tv_margin_left"
-      android:layout_marginRight="@dimen/tv_margin_right"/>
+      style="@style/textViewValueStyle"/>
 
 
     <TextView
-      android:textStyle="bold"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginTop="@dimen/tv_margin_top"
-      android:layout_marginLeft="@dimen/tv_margin_left"
-      android:layout_marginRight="@dimen/tv_margin_right"
+      style="@style/textViewKeyStyle"
       android:text="@string/detail_description_label"/>
 
     <TextView
       android:id="@+id/description_tv"
-      android:layout_width="wrap_content"
-      android:layout_height="wrap_content"
-      android:layout_marginLeft="@dimen/tv_margin_left"
-      android:layout_marginRight="@dimen/tv_margin_right"/>
+      style="@style/textViewValueStyle"/>
 
   </LinearLayout>
 
